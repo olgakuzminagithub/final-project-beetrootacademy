@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My final project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+     <!---Preloader-->
+    <div class="preloader">
+      <div class="preloader__img"></div>
+    </div>
+    <!---Preolder end-->
+    <!---Search pop-up start-->
+    <div class="search-popup">
+      <div class="search-popup__overlay"></div>
+      <div class="search-popup__content">
+        <form action="#" class="search-popup__form">
+          <div class="search-popup__input-box">
+            <input type="text" name="search" id="search" placeholder="Serach Here ...">
+            <button type="submit" class="search-popup__btn">
+              <span class="icon-search"></span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!---Search pop-up end-->
+    <!--Wrapper start-->
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__row">
+          <div class="header__logo">
+            <a href="#">
+              <img src="./i/logo-1.png" alt="">
+            </a>
+          </div>
+          <div class="header__right">
+            <!---Top menu start-->
+            <div class="header__right-top top-menu">
+              <div class="top-menu__right">
+                <p class="top-menu__hello">Welcome to our Organic Store Ogenix!</p>
+                <ul class="top-menu__icons icons">
+                  <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <span class="icon-facebook2"></span>
+                      </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-instagram"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-twitter"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-pinterest"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!---Top menu end-->
+              <div class="top-menu__left">
+                <a class="top-menu__contact top-menu__tel" href="tel:+9330768-068660">
+                  <span class="icon-mobile"></span>
+                  +92 (307) 68-088660
+                </a>
+                <a class="top-menu__contact top-menu__mail" href="mailto:needhelp@company.com">
+                  <span class="icon-envelop"></span>
+                  needhelp@company.com
+                </a>
+              </div>
+            </div>
+            <div class="header__right-bottom">
+              <!---Desctop menu start-->
+              <nav class="header__menu menu">
+                 <!---Change page theme-->
+                <div class="menu__theme">
+                  <button type="button" class="menu__theme-button change__theme"></button>
+                </div>
+                 <!---Change page theme end-->
+                <div class="header__button menu__button">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <ul class="menu__nav ">
+                  <li class="menu__has-submenu">
+                    <a class="menu__is-submenu" href="./index.html">Home</a>
+                    <ul>
+                      <li><a href="./index.html#about-us">About us</a></li>
+                      <li><a href="./index.html#our-services">Our services</a></li>
+                      <li><a href="./index.html#hot-products">Hot products</a></li>
+                      <li><a href="./index.html#gallery">Gallery</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__has-submenu">
+                    <a class="menu__is-submenu" href="./shop.html">Shop</a>
+                    <ul>
+                        <li><a href="./shop.html">Shop list</a></li>
+                        <li><a href="./cart.html">Cart</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="./news.html">News</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="menu__buttons">
+                  <a class="menu__search search-togle" href="#">
+                    <span class="icon-search"></span>
+                    Search here
+                  </a>
+                  <a class="menu__cart" href="./cart.html"><span class="icon-cart"></span></a>
+                  <a class="btn btn_green" href="./shop.html">Shop now</a>
+                </div>
+              </nav>
+               <!---Desctop menu end-->
+            </div>
+          </div>
+        </div>
+      </header>
+       <!---Mobile menu start-->
+       <div class="mobile-menu">
+        <div class="mobile-menu__overlay"></div>
+        <div class="mobile-menu__content">
+          <div class="mobile-menu__header">
+            <div class="mobile-menu__logo">
+              <img src="./i/logo-1.png" alt="logo">
+            </div>
+            <div class="mobile-menu__button menu__button">
+              <span class="icon-cross"></span>
+            </div>
+          </div>
+          <nav class="mobile-menu__nav nav">
+            <ul>
+              <li class="nav__has-submenu">
+                <a class="nav__is-submenu" href="./index.html">Home</a>
+                <ul>
+                  <li><a class="nav-js" href="./index.html#about-us">About us</a></li>
+                  <li><a class="nav-js" href="./index.html#our-services">Our services</a></li>
+                  <li><a class="nav-js" href="./index.html#hot-products">Hot products</a></li>
+                  <li><a class="nav-js" href="./index.html#gallery">Gallery</a></li>
+                </ul>
+              </li>
+              <li class="nav__has-submenu">
+                <a class="nav__is-submenu" href="./shop.html">Shop</a>
+                <ul>
+                    <li><a href="./shop.html">Shop list</a></li>
+                    <li><a href="./cart.html">Cart</a></li>
+                </ul>
+              </li>
+              <li><a href="./news.html">News</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="mobile-menu__bottom">
+            <a class="mobile-menu__contact top-menu__tel" href="tel:+9330768-068660">
+              <span class="icon-mobile"></span>
+              +92 (307) 68-088660
+            </a>
+            <a class="mobile-menu__contact top-menu__mail" href="mailto:needhelp@company.com">
+              <span class="icon-envelop"></span>
+              needhelp@company.com
+            </a>
+            <button class="mobile-menu__theme change__theme">
+              <span class="icon-brightness-contrast"></span>
+              Change color theme site
+            </button>
+            <ul class="mobile-menu__icons icons">
+              <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <span class="icon-facebook2"></span>
+                  </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <span class="icon-instagram"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <span class="icon-twitter"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <span class="icon-pinterest"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+       </div>
+      <!---Mobile menu end-->
+      <main>
+        <!---Header of page start-->
+        <section class="page-header">
+            <div class="page-header__bg">
+                <img src="./i/video-one-bg.jpeg" alt="bg">
+            </div>
+            <div class="page-header__ripped-paper"></div>
+            <div class="container">
+                <ul class="page-header__bread-crumbs">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <p>Contact</p>
+                    </li>
+                </ul>
+                <h2 class="page-header__title">Contact</h2>
+            </div>
+        </section>
+        <!---Header of page end-->
+         <!---Google map start-->
+        <section class="google-map">
+            <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.516162535474!2d-73.42775384869775!3d43.2196365790362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e07fa8533b7405%3A0xc1d73e4538284b2!2zMjQgU3RyZWV0IFJkLCBBcmd5bGUsIE5ZIDEyODA5LCDQodCo0JA!5e0!3m2!1sru!2scz!4v1680269565640!5m2!1sru!2scz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+         <!---google map end-->
+        <!-- Contact datails start -->
+        <section class="contact-details">
+            <div class="container">
+                <ul class="contact-details__list">
+                    <li class="contact-details__item">
+                        <div class="contact-details__logo">
+                            <span class="icon-bubbles2"></span>
+                        </div>
+                        <div class="contact-details__content">
+                            <p class="contact-details__text">Have a quation</p>
+                            <a class="contact-details__link" href="tel:+92(307)68-06860">+92(307)68-06860</a>
+                        </div>
+                    </li>
+                    <li class="contact-details__item">
+                        <div class="contact-details__logo">
+                            <span class="icon-envelop"></span>
+                        </div>
+                        <div class="contact-details__content">
+                            <p class="contact-details__text">Write email</p>
+                            <a class="contact-details__link" href="mailto:needhelp@company.com">needhelp@company.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-details__item">
+                        <div class="contact-details__logo">
+                            <span class="icon-location"></span>
+                        </div>
+                        <div class="contact-details__content">
+                            <p class="contact-details__text">Visit stre</p>
+                            <p class="contact-details__link">Valentin, Street Road 24, New York, USA</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Contact datails end -->
+        <!-- Form start -->
+        <section class="feedback">
+          <div class="feedback__container">
+              <span class="feedback__subtitle">Write a Massage</span>
+              <h2 class="feedback__title">We're always here to help you</h2>
+            <form action="submit" class="feedback__form">
+              <input type="text" placeholder="Your name" name="name" id="form-name">
+              <input type="email" placeholder="Email address" name="email" id="form-email">
+              <input type="text" placeholder="Subject" name="subject" id="form-subject">
+              <input type="number" placeholder="Phone" name="phone" id="form-phone">
+              <textarea placeholder="Write a massage" name="mesage" id="form-message"></textarea>
+              <button class="btn btn_yellow feedback__btn">Send a message</button>
+            </form>
+          </div>
+        </section>
+        <!-- Form end -->
+        <!---Subscribe start-->
+        <section class="subscribe">
+          <div class="container">
+            <div class="subscribe__box">
+              <div class="subscribe__shape-1 float-box-x">
+                <img src="./i/subscribe-one-shape-1.png" alt="">
+              </div>
+              <div class="subscribe__shape-2 float-box-y">
+                <img src="./i/subscribe-one-shape-2.png" alt="">
+              </div>
+              <div class="subscribe__shape-4 float-box-y">
+                <img src="./i/subscribe-one-shape-4.png" alt="">
+              </div>
+              <div class="subscribe__shape-5 zoominout">
+                <img src="./i/subscribe-one-shape-5.png" alt="">
+              </div>
+              <div class="subscribe__content">
+                <div class="subscribe__shape-3 float-box-x">
+                  <img src="./i/subscribe-one-shape-3.png" alt="">
+                </div>
+                <div class="subscribe__row">
+                  <div class="subscribe__col subscribe__col_left">
+                    <div class="subscribe__icon-box">
+                      <span class="icon-file-text2"></span>
+                    </div>
+                    <div class="subscribe__title-box">
+                       <span class="subscribe__subtitle">Quisque vel ortor</span>
+                       <h3 class="subscribe__title">Subscribe to newsletter</h3>
+                    </div>
+                  </div>
+                  <div class="subscribe__col subscribe__col_right">
+                    <div class="subscribe__shape-6 float-box-y">
+                      <img src="./i/subscribe-one-shape-6.png" alt="">
+                    </div>
+                    <div class="subscribe__form-box">
+                      <form class="subscribe__form" action="">
+                        <div class="subscribe__input-box">
+                          <input type="email" placeholder="Email Address" name="email">
+                          <button class="subscribe__btn" type="submit"><span class="icon-compass"></span></button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Subscribe end-->
+      </main>
+      <footer class="footer">
+        <section class="footer__top">
+          <div class="footer__bg"></div>
+          <div class="footer__ripped-paper"></div>
+          <div class="container">
+            <div class="footer__row">
+              <div class="footer__col footer__col-1">
+                <a class="footer__logo" href="#">
+                  <img src="./i/logo-1.png" alt="">
+                </a>
+                <p class="footer__text">
+                  We’re Providing Everyday Fresh 
+                  andQuality Products.
+                </p>
+                <ul class="footer__icons icons">
+                  <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <span class="icon-facebook2"></span>
+                      </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-instagram"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-twitter"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-pinterest"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__col footer__col-2">
+                <h3 class="footer__subtitle">Explore</h3>
+                <ul class="footer__nav">
+                  <li><a class="footer__link" href="./index.html">About us</a></li>
+                  <li><a class="footer__link" href="./index.html">Our services</a></li>
+                  <li><a class="footer__link" href="./index.html">Hot products</a></li>
+                  <li><a class="footer__link" href="./index.html">Gallery</a></li>
+                </ul>
+              </div>
+              <div class="footer__col footer__col-3">
+                <h3 class="footer__subtitle">Contact</h3>
+                <p class="footer__addres">
+                  Valentin, Street Road 24, New York, USA - 67452
+                </p>
+                <a class="footer__tel" href="tel:+92(8800)68-8960">+92(8800)68-8960</a>
+                <a class="footer__mail" href="mailto:info@example.com">info@example.com</a>
+              </div>
+              <div class="footer__col footer__col-4">
+                <h3 class="footer__subtitle">Gallery</h3>
+                <div class="footer__gallery">
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-1.jpeg" alt="gallery-1-1">
+                  </div>
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-2.jpeg" alt="gallery-1-2">
+                  </div>
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-3.jpeg" alt="gallery-1-3">
+                  </div>
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-4.jpeg" alt="gallery-1-4">
+                  </div>
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-2.jpeg" alt="gallery-1-2">
+                  </div>
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-1.jpeg" alt="gallery-1-1">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="footer__bottom">
+          <div class="container">
+            <div class="footer__row-bottom">
+              <div class="footer__copyright">
+                <p>
+                  © Copyright 2023 by <a href="#">Company.com</a>
+                </p>
+              </div>
+              <div class="footer__info">
+                <ul class="footer__info-links">
+                  <li>
+                    <a href="#">Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+      <!---Arrow to up-->
+      <div class="scroll-to-up">
+        <span class="icon-arrow-up2"></span>
+      </div>
+      <!---Arrow to up end-->
+    </div>
+    <!--Wrapper start-->
+    <!--  JavaScript here -->
+    <script src="https://kit.fontawesome.com/7e214218fa.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
