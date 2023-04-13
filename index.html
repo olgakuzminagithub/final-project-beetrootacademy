@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My final project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+     <!---Preloader-->
+    <div class="preloader">
+      <div class="preloader__img"></div>
+    </div>
+    <!---Preolder end-->
+    <!---Search pop-up start-->
+    <div class="search-popup">
+      <div class="search-popup__overlay"></div>
+      <div class="search-popup__content">
+        <form action="#" class="search-popup__form">
+          <div class="search-popup__input-box">
+            <input type="text" name="search" id="search" placeholder="Serach Here ...">
+            <button type="submit" class="search-popup__btn">
+              <span class="icon-search"></span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!---Search pop-up end-->
+    <!--Wrapper start-->
+    <div class="wrapper">
+      <header class="header" data-scroll-header>
+        <div class="header__row">
+          <div class="header__logo">
+            <a href="#">
+              <img src="./i/logo-1.png" alt="">
+            </a>
+          </div>
+          <div class="header__right">
+            <!---Top menu start-->
+            <div class="header__right-top top-menu">
+              <div class="top-menu__right">
+                <p class="top-menu__hello">Welcome to our Organic Store Ogenix!</p>
+                <ul class="top-menu__icons icons">
+                  <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <span class="icon-facebook2"></span>
+                      </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-instagram"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-twitter"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-pinterest"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!---Top menu end-->
+              <div class="top-menu__left">
+                <a class="top-menu__contact top-menu__tel" href="tel:+9330768-068660">
+                  <span class="icon-mobile"></span>
+                  +92 (307) 68-088660
+                </a>
+                <a class="top-menu__contact top-menu__mail" href="mailto:needhelp@company.com">
+                  <span class="icon-envelop"></span>
+                  needhelp@company.com
+                </a>
+              </div>
+            </div>
+            <div class="header__right-bottom">
+              <!---Desctop menu start-->
+              <nav class="header__menu menu">
+                 <!---Change page theme-->
+                <div class="menu__theme">
+                  <button type="button" class="menu__theme-button change__theme"></button>
+                </div>
+                 <!---Change page theme end-->
+                <div class="header__button menu__button">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <ul class="menu__nav ">
+                  <li class="menu__has-submenu">
+                    <a class="menu__is-submenu" href="#">Home</a>
+                    <ul>
+                      <li><a class="menu-js" href="#about-us">About us</a></li>
+                      <li><a class="menu-js" href="#our-services">Our services</a></li>
+                      <li><a class="menu-js" href="#hot-products">Hot products</a></li>
+                      <li><a class="menu-js" href="#gallery">Gallery</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__has-submenu">
+                    <a class="menu__is-submenu" href="./shop.html">Shop</a>
+                    <ul>
+                        <li><a href="./shop.html">Shop list</a></li>
+                        <li><a href="./cart.html">Cart</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="./news.html">News</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="menu__buttons">
+                  <a class="menu__search search-togle" href="#">
+                    <span class="icon-search"></span>
+                    Search here
+                  </a>
+                  <a class="menu__cart" href="./cart.html"><span class="icon-cart"></span></a>
+                  <a class="btn btn_green" href="./shop.html">Shop now</a>
+                </div>
+              </nav>
+               <!---Desctop menu end-->
+            </div>
+          </div>
+        </div>
+      </header>
+       <!---Mobile menu start-->
+       <div class="mobile-menu">
+        <div class="mobile-menu__overlay"></div>
+        <div class="mobile-menu__content">
+          <div class="mobile-menu__header">
+            <div class="mobile-menu__logo">
+              <img src="./i/logo-1.png" alt="logo">
+            </div>
+            <div class="mobile-menu__button menu__button">
+              <span class="icon-cross"></span>
+            </div>
+          </div>
+          <nav class="mobile-menu__nav nav">
+            <ul>
+              <li class="nav__has-submenu">
+                <a class="nav__is-submenu" href="#">Home</a>
+                <ul>
+                  <li><a class="nav-js" href="#about-us">About us</a></li>
+                  <li><a class="nav-js" href="#our-services">Our services</a></li>
+                  <li><a class="nav-js" href="#hot-products">Hot products</a></li>
+                  <li><a class="nav-js" href="#gallery">Gallery</a></li>
+                </ul>
+              </li>
+              <li class="nav__has-submenu">
+                <a class="nav__is-submenu" href="./shop.html">Shop</a>
+                <ul>
+                    <li><a href="./shop.html">Shop list</a></li>
+                    <li><a href="./cart.html">cart</a></li>
+                </ul>
+              </li>
+              <li><a href="./news.html">News</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="mobile-menu__bottom">
+            <a class="mobile-menu__contact top-menu__tel" href="tel:+9330768-068660">
+              <span class="icon-mobile"></span>
+              +92 (307) 68-088660
+            </a>
+            <a class="mobile-menu__contact top-menu__mail" href="mailto:needhelp@company.com">
+              <span class="icon-envelop"></span>
+              needhelp@company.com
+            </a>
+            <button class="mobile-menu__theme change__theme">
+              <span class="icon-brightness-contrast"></span>
+              Change color theme site
+            </button>
+            <ul class="mobile-menu__icons icons">
+              <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <span class="icon-facebook2"></span>
+                  </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <span class="icon-instagram"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <span class="icon-twitter"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <span class="icon-pinterest"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+       </div>
+      <!---Mobile menu end-->
+      <main>
+        <!---Main slider-->
+        <section class="main-slider">
+          <div class="main-slider__bg"></div>
+          <div class="main-slider__shape_1 float-box-y">
+            <img src="./i/main-slider-shape-1.png" alt="shape-1">
+          </div>
+          <div class="main-slider__shape_2 float-box-x">
+            <img src="./i/main-slider-shape-2.png" alt="shape-2">
+          </div>
+          <div class="main-slider__shape_5 zoominout">
+            <img src="./i/main-slider-shape-5.png" alt="shape-5">
+          </div>
+          <div class="main-slider__shape_6 float-box-x">
+            <img src="./i/main-slider-shape-6.png" alt="shape-6">
+          </div>
+          <div class="main-slider__shape_7 float-box-y">
+            <img src="./i/main-slider-shape-7.png" alt="shape-7">
+          </div>
+          <div class="main-slider__shape_8 float-box-x">
+            <img src="./i/main-slider-shape-8.png" alt="shape-8">
+          </div>
+          <div class="main-slider__img">
+            <div class="main-slider__shape_3 float-box-x">
+              <img src="./i/main-slider-shape-3.png" alt="shape-3">
+            </div>
+            <div class="main-slider__shape_4 float-box-y">
+              <img src="./i/main-slider-shape-4.png" alt="shape-4">
+            </div>
+            <div class="main-slider__img-one anim-items-js">
+              <img src="./i/main-slider-img-1.png" alt="slider img">
+            </div>
+          </div>
+          <div class="container">
+            <div class="main-slider__container">
+              <div class="main-slider__title-box slide-from-up anim-items-js">
+                <span class="main-slider__subtitle">Select only Organic Product</span>
+                <h2 class="main-slider__title">Choose the healthy food</h2>
+              </div>
+              <div class="main-slider__btn-box slide-from-down anim-items-js">
+                <a href="#" class="main-slider__btn btn btn_yellow">Learn more</a>
+                <a href="#" class="main-slider__btn btn btn_green">Shop now</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Main slider end-->
+        <!---Feature start-->
+        <section class="feature">
+          <div class="container feature__container">
+            <div class="feature__inner">
+              <ul class="feature__list">
+                <li class="feature__single">
+                  <div class="feature__icon">
+                    <span class="icon-global"></span>
+                  </div>
+                  <div class="feature__content">
+                    <h3 class="feature__title">Return Policy</h3>
+                    <p class="feature__text">Money back guarante</p>
+                  </div>
+                </li>
+                <li class="feature__single">
+                  <div class="feature__icon">
+                    <span class="icon-truck"></span>
+                  </div>
+                  <div class="feature__content">
+                    <h3 class="feature__title">Free shipping</h3>
+                    <p class="feature__text">on all orders over $60</p>
+                  </div>
+                </li>
+                <li class="feature__single">
+                  <div class="feature__icon">
+                    <span class="icon-location"></span>
+                  </div>
+                  <div class="feature__content">
+                    <h3 class="feature__title">Store locator</h3>
+                    <p class="feature__text">Find your nearest store</p>
+                  </div>
+                </li>
+                <li class="feature__single">
+                  <div class="feature__icon">
+                    <span class="icon-credit-card"></span>
+                  </div>
+                  <div class="feature__content">
+                    <h3 class="feature__title">Saecure payment</h3>
+                    <p class="feature__text">Your money is 100% secure</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+         <!---Feature start-->
+        <!---About us start-->
+        <section class="about-us" id="about-us">
+            <div class="container">
+              <div class="about-us__inner">
+                <div class="about-us__col">
+                  <div class="about-us__img-box slide-from-left anim-items-js anim-no-repeat-js">
+                    <div class="about-us__shape-1">
+                      <img src="i/about-one-shape-1.png" alt="green background">
+                    </div>
+                    <div class="about-us__shape-2">
+                      <img src="i/about-one-shape-2.png" alt="leaves">
+                    </div>
+                    <div class="about-us__shape-3">
+                      <img src="i/about-one-shape-3.png" alt="white circle">
+                    </div>
+                    <div class="about-us__shape-4 float-box-y">
+                      <img src="i/about-one-shape-4.png" alt="green background">
+                    </div>
+                    <div class="about-us__shape-5 zoominout">
+                      <img src="i/about-one-shape-5.png" alt="leaves">
+                    </div>
+                    <div class="about-us__shape-6 float-box-x">
+                      <img src="i/about-one-shape-6.png" alt="white circle">
+                    </div>
+                    <div class="about-us__shape-7 zoominout">
+                      <img src="i/about-one-shape-7.png" alt="green background">
+                    </div>
+                    <div class="about-us__shape-8 float-box-y">
+                      <img src="i/about-one-shape-8.png" alt="leaves">
+                    </div>
+                    <div class="about-us__shape-9">
+                      <img src="i/about-one-shape-9.png" alt="white circle">
+                    </div>
+                    <div class="about-us__shape-10 float-box-x">
+                      <img src="i/about-one-shape-10.png" alt="white circle">
+                    </div>
+                    <div class="about-us__img">
+                      <img src="i/about-one-img-1.png" alt="girl">
+                    </div>
+                    <div class="about-us__experience">
+                      <div class="about-us__experience-icon">
+                        <span class="icon-leaf"></span>
+                      </div>
+                      <div class="about-us__experience-text">
+                        <p>
+                          <span>30</span>
+                          Years of experience
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="about-us__col">
+                  <div class="about-us__content-box">
+                    <span class="about-us__subtitle">Farming with Love</span>
+                    <h2 class="about-us__title">
+                      Organic & healthy fresh food provider
+                    </h2>
+                    <ul class="about-us__list"> 
+                      <li>The natural products</li>
+                      <li>Everyday fresh food</li>
+                    </ul>
+                    <p class="about-us__text-green" >
+                      We connect buyers and sellers of natural, organic products
+                      who are so beguiled demoralized charms of pleasure.
+                    </p>
+                    <p class="about-us__text" >
+                      Aliquam viverra arcu. Donec aliquet blandit enim. Suspendisse
+                      id quam sed eros tincidunt luctus sit amet eu nibh egestas tempus turpis, sit amet
+                      mattis magna varius non.
+                    </p>
+                    <div class="about-us__bottom">
+                      <div class="about-us__bottom-img">
+                        <img src="i/about-one-icon-1.png" alt="fruts">
+                      </div>
+                      <h3 class="about-us__bottom-text">
+                        Every day fresh and quality products
+                        for you deliver at doorstep
+                      </h3>
+                    </div>
+                    <a href="#" class="btn btn_yellow">Discover more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!---About us end-->
+        <!---Categories start-->
+        <section class="categories" id="our-services">
+          <div class="container">
+            <div class="categories__title-box">
+              <span class="categories__subtitle">Our categories</span>
+              <h2 class="categories__title">What we’re offering to customers</h2>
+            </div>
+            <div class="categories__row anim-items-js anim-no-repeat-js">
+              <div class="categories__item slide-from-down">
+                <div class="categories__box categories__box_green">
+                  <div class="categories__img-box">
+                    <img src="./i/categories-one-img-1.jpeg" alt="vagetables">
+                  </div>
+                  <div class="categories__text-box">
+                    <h3 class="categories__cat-title">Vagetables</h3>
+                    <p class="categories__text">
+                      When nothing prevents our to we like best be.
+                      When nothing prevents our to we like best be.
+                    </p>
+                  </div>
+                  <div class="categories__arrow-box">
+                    <a href="#" class="categories__arrow">
+                      <span class="icon-arrow-right2"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="categories__item slide-from-down slide-from-down_delay-2">
+                <div class="categories__box categories__box_red">
+                  <div class="categories__img-box">
+                    <img src="./i/categories-one-img-2.jpeg" alt="vagetables">
+                  </div>
+                  <div class="categories__text-box">
+                    <h3 class="categories__cat-title">Fresh fruits</h3>
+                    <p class="categories__text">
+                      When nothing prevents our to we like best be.
+                    </p>
+                  </div>
+                  <div class="categories__arrow-box">
+                    <a href="#" class="categories__arrow">
+                      <span class="icon-arrow-right2"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="categories__item  slide-from-down slide-from-down_delay-4">
+                <div class="categories__box categories__box_yellow">
+                  <div class="categories__img-box">
+                    <img src="./i/categories-one-img-3.jpeg" alt="vagetables">
+                  </div>
+                  <div class="categories__text-box">
+                    <h3 class="categories__cat-title">Spices</h3>
+                    <p class="categories__text">
+                      When nothing prevents our to we like best be.
+                    </p>
+                  </div>
+                  <div class="categories__arrow-box">
+                    <a href="#" class="categories__arrow">
+                      <span class="icon-arrow-right2"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="categories__item slide-from-down slide-from-down_delay-6">
+                <div class="categories__box categories__box_brown">
+                  <div class="categories__img-box">
+                    <img src="./i/categories-one-img-4.jpeg" alt="vagetables">
+                  </div>
+                  <div class="categories__text-box">
+                    <h3 class="categories__cat-title">Dried products</h3>
+                    <p class="categories__text">
+                      When nothing prevents our to we like best be.
+                    </p>
+                  </div>
+                  <div class="categories__arrow-box">
+                    <a href="#" class="categories__arrow">
+                      <span class="icon-arrow-right2"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Categories end-->
+        <!---Hot products start-->
+        <section class="hot-products" id="hot-products">
+          <div class="container">
+            <div class="hot-products__title-box">
+              <span class="hot-products__subtitle">Checkout New Products</span>
+              <h2 class="hot-products__title">Today's new hotest products avaliable now</h2>
+            </div>
+             <!---Products carousel start-->
+            <div class="hot-products__carousel">
+               <!---Product 1 start-->
+              <div>
+                 <div class="hot-products__item product">
+                    <div class="product__img-box">
+                      <img src="i/hot-product-1-1.jpeg" alt="banans">
+                    </div>
+                    <div  class="product__content">
+                      <ul class="product__rating stars">
+                        <li class="icon-star-full"></li>
+                        <li class="icon-star-full"></li>
+                        <li class="icon-star-full"></li>
+                        <li class="icon-star-full"></li>
+                        <li class="icon-star-empty"></li>
+                      </ul>
+                      <h3 class="product__title"><a href="#">Banans</a></h3>
+                      <p class="product__price">$18.99</p>
+                      <a href="#" class="btn btn_green product__btn">Add to cart</a>
+                    </div>
+                    <div class="product__icon-box">
+                      <a href="#" class="product__icon icon-heart"></a>
+                      <a href="#" class="product__icon icon-eye"></a>
+                    </div>
+                 </div>
+              </div>
+               <!---Product 1 end-->
+               <!---Product 2 start-->
+              <div>
+                <div class="hot-products__item product">
+                   <div class="product__img-box">
+                     <img src="i/hot-product-1-2.jpeg" alt="potatos">
+                   </div>
+                   <div  class="product__content">
+                     <ul class="product__rating stars">
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                     </ul>
+                     <h3 class="product__title"><a href="#">Potatos</a></h3>
+                     <p class="product__price">$22.00</p>
+                     <a href="#" class="btn btn_green product__btn">Add to cart</a>
+                   </div>
+                   <div class="product__icon-box">
+                     <a href="#" class="product__icon icon-heart"></a>
+                     <a href="#" class="product__icon icon-eye"></a>
+                   </div>
+                </div>
+              </div>
+              <!---Product 2 end-->
+              <!---Product 3 start-->
+              <div>
+                <div class="hot-products__item product">
+                   <div class="product__img-box">
+                     <img src="i/hot-product-1-3.jpeg" alt="apples">
+                   </div>
+                   <div  class="product__content">
+                     <ul class="product__rating stars">
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                     </ul>
+                     <h3 class="product__title"><a href="#">Apples</a></h3>
+                     <p class="product__price">$16.00</p>
+                     <a href="#" class="btn btn_green product__btn">Add to cart</a>
+                   </div>
+                   <div class="product__icon-box">
+                     <a href="#" class="product__icon icon-heart"></a>
+                     <a href="#" class="product__icon icon-eye"></a>
+                   </div>
+                </div>
+              </div>
+              <!---Product 3 end-->
+              <!---Product 4 start-->
+              <div>
+                <div class="hot-products__item product">
+                   <div class="product__img-box">
+                     <img src="i/hot-product-1-4.jpeg" alt="lettus">
+                   </div>
+                   <div  class="product__content">
+                     <ul class="product__rating stars">
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-empty"></li>
+                     </ul>
+                     <h3 class="product__title"><a href="#">Lettus</a></h3>
+                     <p class="product__price">$9.00</p>
+                     <a href="#" class="btn btn_green product__btn">Add to cart</a>
+                   </div>
+                   <div class="product__icon-box">
+                     <a href="#" class="product__icon icon-heart"></a>
+                     <a href="#" class="product__icon icon-eye"></a>
+                   </div>
+                </div>
+             </div>
+              <!---Product 4 end-->
+              <!---Product 5 start-->
+              <div>
+                <div class="hot-products__item product">
+                   <div class="product__img-box">
+                     <img src="i/hot-product-1-5.jpeg" alt="brown bread">
+                   </div>
+                   <div  class="product__content">
+                     <ul class="product__rating stars">
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-empty"></li>
+                     </ul>
+                     <h3 class="product__title"><a href="#">Brown bread</a></h3>
+                     <p class="product__price">$23.25</p>
+                     <a href="#" class="btn btn_green product__btn">Add to cart</a>
+                   </div>
+                   <div class="product__icon-box">
+                     <a href="#" class="product__icon icon-heart"></a>
+                     <a href="#" class="product__icon icon-eye"></a>
+                   </div>
+                </div>
+             </div>
+             <!---Product 5 end-->
+             <!---Product 6 start-->
+              <div>
+                <div class="hot-products__item product">
+                   <div class="product__img-box">
+                     <img src="i/shop-product-1-7.jpeg" alt="banans">
+                   </div>
+                   <div  class="product__content">
+                     <ul class="product__rating stars">
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-full"></li>
+                       <li class="icon-star-empty"></li>
+                     </ul>
+                     <h3 class="product__title"><a href="#">Banans</a></h3>
+                     <p class="product__price">$18.00</p>
+                     <a href="#" class="btn btn_green product__btn">Add to cart</a>
+                   </div>
+                   <div class="product__icon-box">
+                     <a href="#" class="product__icon icon-heart"></a>
+                     <a href="#" class="product__icon icon-eye"></a>
+                   </div>
+                </div>
+             </div>
+             <!---Product 6 end-->
+            </div>
+            <!---Products carousel end-->
+            <!---Products carousel dots-->
+            <div class="hot-products__dots carousel-dots"></div>
+          </div>
+        </section>
+        <!---Hot products end-->
+        <!---Banner start-->
+        <section class="banner">
+          <div class="container">
+            <div class="banner__row anim-items-js anim-no-repeat-js">
+              <div class="banner__item slide-from-down">
+                <div class="banner__box banner__box-1">
+                  <div class="banner__img banner__img-1">
+                    <img src="./i/banner-img-1.png" alt="banner">
+                  </div>
+                  <div class="banner__shape-1">
+                    <img src="./i/banner-shape-1.png" alt="banner">
+                  </div>
+                  <div class="banner__shape-2">
+                    <img src="./i/banner-shape-2.png" alt="banner">
+                  </div>
+                  <div class="banner__shape-3">
+                    <img src="./i/banner-shape-3.png" alt="banner">
+                  </div>
+                  <span class="banner__subtitle">100% organic</span>
+                  <h3 class="banner__title">
+                    Quality organic food store
+                  </h3>
+                  <a href="#" class="btn btn_yellow" target="_blank" rel="noopener noreferrer">Shop now</a>
+                </div>
+              </div>
+              <div class="banner__item slide-from-down slide-from-down_delay-2">
+                <div class="banner__box banner__box-2">
+                  <div class="banner__img banner__img-2">
+                    <img src="./i/banner-img-2.png" alt="banner">
+                  </div>
+                  <div class="banner__shape-1">
+                    <img src="./i/banner-shape-4.png" alt="banner">
+                  </div>
+                  <div class="banner__shape-5">
+                    <img src="./i/banner-shape-5.png" alt="banner">
+                  </div>
+                  <div class="banner__shape-6">
+                    <img src="./i/banner-shape-6.png" alt="banner">
+                  </div>
+                  <span class="banner__subtitle">100% organic</span>
+                  <h3 class="banner__title">
+                    Quality organic food store
+                  </h3>
+                  <a href="#" class="btn btn_yellow banner__btn" target="_blank" rel="noopener noreferrer">Shop now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Banner end-->
+        <!---Testimonial start-->
+        <section class="testimonial" id="reviews">
+          <div class="testimonial__bg-img">
+            <img src="./i/testimonial-one__bg-img-2.png" alt="">
+          </div>
+          <div class="testimonial__bg-shape">
+            <img src="./i/testimonial-one-shape-3.png" alt="">
+          </div>
+          <div class="container">
+            <div class="testimonial__row">
+              <div class="testimonial__col testimonial__left">
+                <span class="testimonial__subtitle">Our Feedback</span>
+                <h2 class="testimonial__title">What they're talking about our company?</h2>
+                <p class="testimonial__text"></p>
+                <p class="testimonial__text">Aliquam viverra arcu. Donec aliquet blandit enim
+                   feugiat.Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh tempus turpis.
+                </p>
+                <a class="btn btn_yellow testimonial__btn" href="#">View all testimonial</a>
+              </div>
+              <div class="testimonial__col testimonial__right">
+                <div class="testimonial__img">
+                  <img src="./i/testimonial-1-2.jpeg" alt="girl">
+                </div>
+                <div class="testimonial__shape-1 float-box-y">
+                  <img src="./i/testimonial-one-shape-1.png" alt="shape-1">
+                </div>
+                <div class="testimonial__shape-2 float-box-y">
+                  <img src="./i/testimonial-one-shape-2.png" alt="shape-2">
+                </div>
+                <div class="testimonial__carousel">
+                  <div>
+                    <div class="testimonial__review">
+                      <div class="testimonial__content">
+                        <div class="testimonial__quot">
+                          <span class="icon-quotes-right"></span>
+                        </div>
+                        <p class="testimonial__text-review">
+                          This is due to their excellent service,
+                          competitive pricing and customer support. 
+                          It’s throughly refresing to
+                          get such a personal simply the touch.
+                        </p>
+                        <div class="testimonial__deteils">
+                          <p class="testimonial__name">Aleesha Brown</p>
+                          <p class="testimonial__position">CEO Ogenix</p>
+                        </div>
+                      </div>
+                      <div class="testimonial__photo">
+                          <img src="./i/testimonial-client-1-1.jpeg" alt="client-1">
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="testimonial__review">
+                      <div class="testimonial__content">
+                        <div class="testimonial__quot">
+                          <span class="icon-quotes-right"></span>
+                        </div>
+                        <p class="testimonial__text-review">
+                          This is due to their excellent service,
+                          competitive pricing and customer support. 
+                          It’s throughly refresing to
+                          get such a personal simply the touch.
+                        </p>
+                        <div class="testimonial__deteils">
+                          <p class="testimonial__name">Aleesha Brown</p>
+                          <p class="testimonial__position">CEO Ogenix</p>
+                        </div>
+                      </div>
+                      <div class="testimonial__photo">
+                          <img src="./i/testimonial-client-1-2.jpeg" alt="client-1">
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="testimonial__review">
+                      <div class="testimonial__content">
+                        <div class="testimonial__quot">
+                          <span class="icon-quotes-right"></span>
+                        </div>
+                        <p class="testimonial__text-review">
+                          This is due to their excellent service,
+                          competitive pricing and customer support. 
+                          It’s throughly refresing to
+                          get such a personal simply the touch.
+                        </p>
+                        <div class="testimonial__deteils">
+                          <p class="testimonial__name">Aleesha Brown</p>
+                          <p class="testimonial__position">CEO Ogenix</p>
+                        </div>
+                      </div>
+                      <div class="testimonial__photo">
+                          <img src="./i/testimonial-client-1-3.jpeg" alt="client-1">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial__arrows"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Testimonial end-->
+         <!---News start-->
+         <section class="news">
+          <div class="container">
+              <div class="news__title-box">
+                <span class="news__subtitle">From the Blog Post</span>
+                <h2 class="news__title">Latest news updates & article</h2>
+              </div>
+              <div class="news__grid anim-items-js anim-no-repeat-js">
+                   <!---One News start-->
+                  <div class="news__item slide-from-down">
+                      <div class="news__img">
+                          <img src="./i/news-1-1.jpeg" alt="news-1-1">
+                      </div>
+                      <div class="news__content">
+                          <ul class="news__meta">
+                              <li>
+                                  <a href="#">
+                                      <span class="icon-price-tag"></span>
+                                      Apartment
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <span class="icon-user"></span>
+                                      by Admin
+                                  </a>
+                              </li>
+                          </ul>
+                          <h3 class="news__article-title">
+                              <a href="#">Which healthy food growth strategies</a>
+                          </h3>
+                          <div class="news__bottom">
+                              <a class="news__read-more" href="#">Read more</a>
+                              <a class="news__comments" href="#"><span class="icon-bubbles2"></span>02</a>
+                          </div>
+                          <div class="news__data">
+                              <p>20 Sep</p>
+                          </div>
+                      </div>
+                  </div>
+                   <!---One news end-->
+                  <!---One News start-->
+                  <div class="news__item slide-from-down slide-from-down_delay-2">
+                      <div class="news__img">
+                          <img src="./i/news-1-2.jpeg" alt="news-1-2">
+                      </div>
+                      <div class="news__content">
+                          <ul class="news__meta">
+                              <li>
+                                  <a href="#">
+                                      <span class="icon-price-tag"></span>
+                                      Apartment
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <span class="icon-user"></span>
+                                      by Admin
+                                  </a>
+                              </li>
+                          </ul>
+                          <h3 class="news__article-title">
+                              <a href="#">Which healthy food growth strategies by Admin</a>
+                          </h3>
+                          <div class="news__bottom">
+                              <a class="news__read-more" href="#">Read more</a>
+                              <a class="news__comments" href="#"><span class="icon-bubbles2"></span>02</a>
+                          </div>
+                          <div class="news__data">
+                              <p>20 Sep</p>
+                          </div>
+                      </div>
+                  </div>
+                   <!---One news end-->
+                   <!---One News start-->
+                  <div class="news__item slide-from-down slide-from-down_delay-4">
+                      <div class="news__img">
+                          <img src="./i/news-1-3.jpeg" alt="news-1-3">
+                      </div>
+                      <div class="news__content">
+                          <ul class="news__meta">
+                              <li>
+                                  <a href="#">
+                                      <span class="icon-price-tag"></span>
+                                      Apartment
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <span class="icon-user"></span>
+                                      by Admin
+                                  </a>
+                              </li>
+                          </ul>
+                          <h3 class="news__article-title">
+                              <a href="#">Which healthy food growth strategies, Which healthy food growth strategies</a>
+                          </h3>
+                          <div class="news__bottom">
+                              <a class="news__read-more" href="#">Read more</a>
+                              <a class="news__comments" href="#"><span class="icon-bubbles2"></span>02</a>
+                          </div>
+                          <div class="news__data">
+                              <p>20 Sep</p>
+                          </div>
+                      </div>
+                  </div>
+                   <!---One news end-->
+              </div>
+          </div>
+      </section>
+      <!---News end-->
+        <!---Galery start-->
+        <section class="gallery" id="gallery">
+          <div class="container">
+            <div class="gallery__carousel">
+              <div>
+                <div class="gallery__item">
+                  <div class="gallery__content">
+                    <div class="gallery__img">
+                      <img src="./i/gallery-1-1.jpeg" alt="gallery">
+                    </div>
+                    <div class="gallery__text-box">
+                      <h3 class="gallery__title">Healthy food</h3>
+                      <p class="gallery__text">Vegan, Organic</p>
+                      <div class="gallery__link">
+                        <a href="#" class="icon-arrow-right2"></a>
+                      </div>
+                   </div>
+                   <div class="gallery__overlay-dark"></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="gallery__item">
+                  <div class="gallery__content">
+                    <div class="gallery__img">
+                      <img src="./i/gallery-1-2.jpeg" alt="gallery">
+                    </div>
+                    <div class="gallery__text-box">
+                      <h3 class="gallery__title">Healthy food</h3>
+                      <p class="gallery__text">Vegan, Organic</p>
+                      <div class="gallery__link">
+                        <a href="#" class="icon-arrow-right2"></a>
+                      </div>
+                   </div>
+                   <div class="gallery__overlay-dark"></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="gallery__item">
+                  <div class="gallery__content">
+                    <div class="gallery__img">
+                      <img src="./i/gallery-1-3.jpeg" alt="gallery">
+                    </div>
+                    <div class="gallery__text-box">
+                      <h3 class="gallery__title">Healthy food</h3>
+                      <p class="gallery__text">Vegan, Organic</p>
+                      <div class="gallery__link">
+                        <a href="#" class="icon-arrow-right2"></a>
+                      </div>
+                   </div>
+                   <div class="gallery__overlay-dark"></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="gallery__item">
+                  <div class="gallery__content">
+                    <div class="gallery__img">
+                      <img src="./i/gallery-1-4.jpeg" alt="gallery">
+                    </div>
+                    <div class="gallery__text-box">
+                      <h3 class="gallery__title">Healthy food</h3>
+                      <p class="gallery__text">Vegan, Organic</p>
+                      <div class="gallery__link">
+                        <a href="#" class="icon-arrow-right2"></a>
+                      </div>
+                   </div>
+                   <div class="gallery__overlay-dark"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery__dots carousel-dots"></div>
+          </div>
+        </section>
+        <!---Galery end-->
+        <!---Subscribe start-->
+        <section class="subscribe">
+          <div class="container">
+            <div class="subscribe__box">
+              <div class="subscribe__shape-1 float-box-x">
+                <img src="./i/subscribe-one-shape-1.png" alt="">
+              </div>
+              <div class="subscribe__shape-2 float-box-y">
+                <img src="./i/subscribe-one-shape-2.png" alt="">
+              </div>
+              <div class="subscribe__shape-4 float-box-y">
+                <img src="./i/subscribe-one-shape-4.png" alt="">
+              </div>
+              <div class="subscribe__shape-5 zoominout">
+                <img src="./i/subscribe-one-shape-5.png" alt="">
+              </div>
+              <div class="subscribe__content">
+                <div class="subscribe__shape-3 float-box-x">
+                  <img src="./i/subscribe-one-shape-3.png" alt="">
+                </div>
+                <div class="subscribe__row">
+                  <div class="subscribe__col subscribe__col_left">
+                    <div class="subscribe__icon-box">
+                      <span class="icon-file-text2"></span>
+                    </div>
+                    <div class="subscribe__title-box">
+                       <span class="subscribe__subtitle">Quisque vel ortor</span>
+                       <h3 class="subscribe__title">Subscribe to newsletter</h3>
+                    </div>
+                  </div>
+                  <div class="subscribe__col subscribe__col_right">
+                    <div class="subscribe__shape-6 float-box-y">
+                      <img src="./i/subscribe-one-shape-6.png" alt="">
+                    </div>
+                    <div class="subscribe__form-box">
+                      <form class="subscribe__form" action="">
+                        <div class="subscribe__input-box">
+                          <input type="email" placeholder="Email Address" name="email">
+                          <button class="subscribe__btn" type="submit"><span class="icon-compass"></span></button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Subscribe end-->
+      </main>
+      <footer class="footer">
+        <section class="footer__top">
+          <div class="footer__bg"></div>
+          <div class="footer__ripped-paper"></div>
+          <div class="container">
+            <div class="footer__row">
+              <div class="footer__col footer__col-1">
+                <a class="footer__logo" href="#">
+                  <img src="./i/logo-1.png" alt="">
+                </a>
+                <p class="footer__text">
+                  We’re Providing Everyday Fresh 
+                  andQuality Products.
+                </p>
+                <ul class="footer__icons icons">
+                  <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <span class="icon-facebook2"></span>
+                      </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-instagram"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-twitter"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <span class="icon-pinterest"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__col footer__col-2">
+                <h3 class="footer__subtitle">Explore</h3>
+                <ul class="footer__nav">
+                  <li><a class="footer__link" href="#about-us">About us</a></li>
+                  <li><a class="footer__link" href="#our-services">Our services</a></li>
+                  <li><a class="footer__link" href="#hot-products">Hot products</a></li>
+                  <li><a class="footer__link" href="#gallery">Gallery</a></li>
+                </ul>
+              </div>
+              <div class="footer__col footer__col-3">
+                <h3 class="footer__subtitle">Contact</h3>
+                <p class="footer__addres">
+                  Valentin, Street Road 24, New York, USA - 67452
+                </p>
+                <a class="footer__tel" href="tel:+92(8800)68-8960">+92(8800)68-8960</a>
+                <a class="footer__mail" href="mailto:info@example.com">info@example.com</a>
+              </div>
+              <div class="footer__col footer__col-4">
+                <h3 class="footer__subtitle">Gallery</h3>
+                <div class="footer__gallery">
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-1.jpeg" alt="gallery-1-1">
+                  </div>
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-2.jpeg" alt="gallery-1-2">
+                  </div>
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-3.jpeg" alt="gallery-1-3">
+                  </div>
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-4.jpeg" alt="gallery-1-4">
+                  </div>
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-2.jpeg" alt="gallery-1-2">
+                  </div>
+                  <div class="footer__gallery-img">
+                    <img src="./i/gallery-1-1.jpeg" alt="gallery-1-1">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="footer__bottom">
+          <div class="container">
+            <div class="footer__row-bottom">
+              <div class="footer__copyright">
+                <p>
+                  © Copyright 2023 by <a href="#">Company.com</a>
+                </p>
+              </div>
+              <div class="footer__info">
+                <ul class="footer__info-links">
+                  <li>
+                    <a href="#">Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    <!---Arrow to up-->
+    <div class="scroll-to-up">
+      <span class="icon-arrow-up2"></span>
+    </div>
+    <!---Arrow to up end-->
+    </div>
+    <!--Wrapper end-->
+    <!--  JavaScript here -->
+    <script src="https://kit.fontawesome.com/7e214218fa.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
